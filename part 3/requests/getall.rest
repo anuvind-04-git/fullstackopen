@@ -1,0 +1,24 @@
+DELETE  http://localhost:3001/api/persons/67bab42f2bac749f55ccdbaa
+###
+GET http://localhost:3001/api/persons
+###
+GET http://localhost:3001/api/persons/1
+###
+GET http://localhost:3001/info
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "asdfgh",
+  "number": "123-98765"
+}
+
+###
+PUT http://localhost:3001/api/persons/67ba1c99cfb3ff807c2ab797
+Content-Type: application/json
+
+{
+  "name": "asii",
+  "number": "123-77744"
+}
